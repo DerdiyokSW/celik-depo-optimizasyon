@@ -39,6 +39,18 @@ RAPOR-DENKLEM-SEKIL-KILAVUZU.md
 POSTER-PPO-SAVUNMA.md
 TEZ-POSTER-KAYNAK.md
 
+# Thesis document generation scripts
+_make_figs_eqs.py
+_make_poster.py
+_make_sunum.py
+_md2docx.py
+_poster_figs.py
+
+# Thesis output artifacts
+runs/evaluation/poster/POSTER.pptx
+runs/evaluation/poster/denklemler/
+runs/evaluation/TEZ_SONUC_RAPORU.md
+
 # OS
 .DS_Store
 Thumbs.db
