@@ -51,6 +51,11 @@ runs/evaluation/poster/POSTER.pptx
 runs/evaluation/poster/denklemler/
 runs/evaluation/TEZ_SONUC_RAPORU.md
 
+# Generated figures and charts (reproducible via evaluation scripts)
+runs/evaluation/poster/
+runs/evaluation/*.png
+runs/evaluation/tradeoff_comment.md
+
 # OS
 .DS_Store
 Thumbs.db
