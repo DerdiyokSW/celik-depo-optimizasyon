@@ -1,0 +1,41 @@
+{
+  "cv_comparison_mae": {
+    "LinearRegression": 9.797292465127292,
+    "DecisionTree": 11.069338888888888,
+    "RandomForest": 7.859956305555555,
+    "LightGBM": 7.105156001830362
+  },
+  "chosen_model": "LightGBM",
+  "deployed_model": "LightGBM",
+  "best_params": {
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "max_depth": -1,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "min_child_samples": 20
+  },
+  "test_metrics": {
+    "mae": 6.945196024981532,
+    "rmse": 8.825651956977353,
+    "r2": 0.9668427184407631,
+    "within_tolerance_ratio": 0.9138888888888889
+  },
+  "feature_importances": {
+    "distance_km": 10389825.493222237,
+    "carrier_quality_score": 5911332.136693001,
+    "traffic_index": 5380736.301782608,
+    "planned_hour": 97726.06652259827,
+    "weekday": 63540.34201622009,
+    "month": 74260.33702468872,
+    "weather_CLEAR": 15816537.320274353,
+    "weather_RAIN": 5368857.439353943,
+    "weather_SNOW": 2534201.7432956696,
+    "vehicle_type_TRUCK": 6205606.67162323,
+    "vehicle_type_TRAIN": 1419436.0522975922,
+    "vehicle_type_SHIP": 13553886.477312088
+  },
+  "n_total": 3600,
+  "random_state": 42
+}

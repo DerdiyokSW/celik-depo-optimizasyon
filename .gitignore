@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated data (reproduce with: python -m src.data.generate_all)
+data/*.parquet
+data/*.json
+data/pool/
+
+# Trained models (reproduce with: python -m src.rl.train_ppo)
+models/
+!models/.gitkeep
+
+# Training logs (TensorBoard)
+runs/ppo_warehouse/
+
+# Claude Code internals
+CLAUDE.md
+.claude/
+
+# Thesis / defense personal documents (Turkish, not part of the codebase)
+SAVUNMA-*.md
+SUNUM-ICERIK.md
+SUNUM.pptx
+BITIRME-RAPORU.md
+BITIRME-RAPORU.docx
+RAPOR-DENKLEM-SEKIL-KILAVUZU.md
+POSTER-PPO-SAVUNMA.md
+TEZ-POSTER-KAYNAK.md
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
