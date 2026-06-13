@@ -6,7 +6,7 @@
 
 This project was developed as a **Computer Engineering undergraduate thesis** (BSM 498, Sakarya
 University, 2025–2026) but is scoped and architected for production-grade industrial deployment
-in facilities similar to Borçelik Gemlik.
+in facilities similar to Storages of Steel Industry.
 
 ---
 
