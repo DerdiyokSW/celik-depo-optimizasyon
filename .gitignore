@@ -59,9 +59,6 @@ runs/evaluation/tradeoff_comment.md
 # Phase spec docs (Turkish, thesis-internal)
 docs/
 
-# Root-level ad-hoc scripts
-_*.py
-
 # OS
 .DS_Store
 Thumbs.db
